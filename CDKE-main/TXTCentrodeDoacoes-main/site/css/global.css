@@ -1,0 +1,101 @@
+body{
+    display: grid;
+    margin: 0%;
+    height: 100vh;
+  
+    grid-template-areas:
+    "h"
+    "m"
+    "f";
+  
+    grid-template-columns: 1fr; 
+    grid-template-rows: 200px 1fr 300px;
+    box-sizing: border-box;
+   }
+  
+header{
+    display: flex;
+    grid-area: h;
+    padding: 0px;
+    background-color: #F2B544;
+    justify-content: center;
+    font-family: cursive;
+  }
+
+main{
+    box-sizing: border-box;
+    grid-area: m;
+    display: flex;
+    height: 800px;
+    justify-content: center;
+    background-image: url(../img/Cachorro-e-Gato-Morando-Juntos-Quais-os-Cuidados-1024x576-1.jpg);
+    background-position: center;
+    background-size: 100%;
+    opacity: 0.8;
+  }
+
+footer{
+    grid-area: f;
+    display: flex;
+    background-color: #0E4765;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+.logo-position{
+    display: flex;
+    justify-content: start;
+    width: 200px;
+    height: 200px; 
+    
+}
+
+a{
+  display: flex;
+  text-decoration: none;
+  color: white;
+  font-size: 24px;
+  flex-direction: row;
+
+}
+  
+.display-inline{
+  display: inline-block;
+    
+}
+
+.button-position{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-content: center;
+    border-radius: 10px;
+    background-color: royalblue;
+    font-family: fantasy;
+    font-size: larger;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.titulo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  color: #ffffff;
+  font-size: x-large;
+}
+
+.recepção{
+  font-size: xx-large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+p{
+  font-size: large;
+}
+
+.Frase{
+  font-size: xx-large;
+}
